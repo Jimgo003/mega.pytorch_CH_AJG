@@ -1,0 +1,13 @@
+    python demo/demo.py base configs/vid_R_101_C4_1x.yaml R_101.pth --visualize-path image_folder --suffix ".JPEG" --output-folder visualization [--output-video]
+    
+        python demo/demo.py base configs/vid_R_101_C4_1x.yaml R_101.pth --suffix ".JPEG"\
+        --visualize-path datasets/ILSVRC2015/Data/VID/val/ILSVRC2015_val_00003001 \
+        --output-folder visualization --output-video
+        
+            python demo/demo.py base configs/vid_R_101_C4_1x.yaml R_101.pth --suffix ".JPEG" --visualize-path datasets/sesion3/v_HorseRiding_g10_c01.avi --output-folder visualization --output-video --video
+            
+            python demo/demo.py base \
+configs/config.yaml R_101.pth \
+--visualize-path data/video.avi \
+--output-folder visualization/base \
+--output-video --video
