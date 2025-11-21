@@ -1,8 +1,8 @@
 ## Installation
 
 ### Requirements:
-- PyTorch 1.3 (1.4 may cause some errors.)
-- torchvision from master
+- PyTorch 1.2
+- torchvision 0.4.0
 - cocoapi
 - yacs
 - matplotlib
@@ -29,7 +29,7 @@ pip install ninja yacs cython matplotlib tqdm opencv-python scipy
 
 # follow PyTorch installation in https://pytorch.org/get-started/locally/
 # we give the instructions for CUDA 10.0
-conda install pytorch=1.3.0 torchvision cudatoolkit=10.0 -c pytorch
+conda install pytorch=1.2.0 torchvision=0.4.0 'pillow<7.0.0' cudatoolkit=10.0 -c pytorch
 
 export INSTALL_DIR=$PWD
 
@@ -47,19 +47,22 @@ python setup.py build_ext install
 
 # install apex
 cd $INSTALL_DIR
-git clone https://github.com/NVIDIA/apex.git
+git clone https://github.com/Jimgo003/apex_CH_AJG.git
 cd apex
-python setup.py install --cuda_ext --cpp_ext
+python setup.py build_ext install
 
 # install PyTorch Detection
 cd $INSTALL_DIR
-git clone https://github.com/Scalsol/mega.pytorch.git
+git clone https://github.com/Jimgo003/mega.pytorch_CH_AJG.git
 cd mega.pytorch
 
 # the following will install the lib with
 # symbolic links, so that you can modify
 # the files if you want and won't need to
 # re-build it
+
+#conda creates a pillow version with 9.5 which gives problems
+
 python setup.py build develop
 
 pip install 'pillow<7.0.0'
