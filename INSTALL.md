@@ -48,13 +48,13 @@ python setup.py build_ext install
 # install apex
 cd $INSTALL_DIR
 git clone https://github.com/Jimgo003/apex_CH_AJG.git
-cd apex
+cd apex_CH_AJG
 python setup.py build_ext install
 
 # install PyTorch Detection
 cd $INSTALL_DIR
 git clone https://github.com/Jimgo003/mega.pytorch_CH_AJG.git
-cd mega.pytorch
+cd mega.pytorch_CH_AJG
 
 # the following will install the lib with
 # symbolic links, so that you can modify
