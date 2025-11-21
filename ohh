@@ -5,7 +5,9 @@
         --output-folder visualization --output-video
         
             python demo/demo.py base configs/vid_R_101_C4_1x.yaml R_101.pth --suffix ".JPEG" --visualize-path datasets/sesion3/v_HorseRiding_g10_c01.avi --output-folder visualization --output-video --video
-            
+
+            python demo/demo.py base configs/vid_R_101_C4_1x.yaml R_101.pth --video --visualize-path datasets/sesion2/v_HorseRiding_g10_c01.avi --output-folder visualization --output-video 
+
             python demo/demo.py base \
 configs/config.yaml R_101.pth \
 --visualize-path data/video.avi \
