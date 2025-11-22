@@ -11,6 +11,8 @@ This repo is an adapted implementation of ["Memory Enhanced Global-Local Aggrega
 
 Besides, this repository also implements several other algorithms like [FGFA](http://openaccess.thecvf.com/content_iccv_2017/html/Zhu_Flow-Guided_Feature_Aggregation_ICCV_2017_paper.html) and [RDN](https://arxiv.org/abs/1908.09511). Any new methods are welcomed. Hoping for your pull request! We hope this repository would help further research in the field of video object detection and beyond. :)
 
+## Instructions for LAB 2 assignment
+
 For the LAB2 from the DLVSP assignament one should follow [INSTALL.md](INSTALL.md) for installation instructions. After that the prefered model should be downloaded from the Main Results section (‘singleframe baseline’ and ‘MEGA’ model checkpoints (backbone ResNet-101)).
 Following this steps, direct to [demo/README.md](demo/README.md) to see how to visualize your own images or video.
 
