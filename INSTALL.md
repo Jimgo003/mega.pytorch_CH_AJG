@@ -45,7 +45,7 @@ git clone https://github.com/mcordts/cityscapesScripts.git
 cd cityscapesScripts/
 python setup.py build_ext install
 
-# install apex
+# install adapted apex
 cd $INSTALL_DIR
 git clone https://github.com/Jimgo003/apex_CH_AJG.git
 cd apex_CH_AJG
