@@ -4,6 +4,8 @@ Currently the demo supports visualization for:
 - Image Folder: A set of frames that were decoded from a given video.
 - Video: Both `.mp4` and `.avi` work for this demo.
 
+Remember to download the Checkpoint files from the Main Results section in the main README file and adding them to the mega.pytorch_CH_AJG folder.
+
 ## Inference on a image folder
 
 The command line should be like this:
