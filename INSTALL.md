@@ -28,7 +28,7 @@ conda install ipython pip
 pip install ninja yacs cython matplotlib tqdm opencv-python scipy
 
 # follow PyTorch installation in https://pytorch.org/get-started/locally/
-# we give the instructions for CUDA 10.0
+# we give the instructions for CUDA 10.0 and reinstall pillow to a lower version ofr compatibility
 conda install pytorch=1.2.0 torchvision=0.4.0 'pillow<7.0.0' cudatoolkit=10.0 -c pytorch
 
 export INSTALL_DIR=$PWD
