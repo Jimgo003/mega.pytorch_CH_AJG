@@ -28,7 +28,7 @@ conda install ipython pip
 pip install ninja yacs cython matplotlib tqdm opencv-python scipy
 
 # follow PyTorch installation in https://pytorch.org/get-started/locally/
-# we give the instructions for CUDA 10.0 and reinstall pillow to a lower version ofr compatibility
+# we give the instructions for CUDA 10.0 and reinstall pillow to a lower version for compatibility
 conda install pytorch=1.2.0 torchvision=0.4.0 'pillow<7.0.0' cudatoolkit=10.0 -c pytorch
 
 export INSTALL_DIR=$PWD
@@ -61,9 +61,9 @@ cd mega.pytorch_CH_AJG
 # the files if you want and won't need to
 # re-build it
 
-#conda creates a pillow version with 9.5 which gives problems
-
 python setup.py build develop
+
+#conda creates a pillow version with 9.5 which gives problems
 
 pip install 'pillow<7.0.0'
 
