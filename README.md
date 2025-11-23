@@ -14,7 +14,9 @@ Besides, this repository also implements several other algorithms like [FGFA](ht
 ## Instructions for LAB 2 assignment
 
 For the LAB2 from the DLVSP assignament one should follow [INSTALL.md](INSTALL.md) for installation instructions. After that the prefered model should be downloaded from the Main Results section (‘singleframe baseline’ and ‘MEGA’ model checkpoints (backbone ResNet-101)) and added to the mega.pytorch_CH_AJG folder.
-Following this steps, direct to [demo/README.md](demo/README.md) to see how to visualize your own images or video.
+Following these steps, direct to [demo/README.md](demo/README.md) to see how to visualize your own images or video.
+
+The rest of the readme is the same as the one from the original mega.pytorch
 
 ## Citing MEGA
 Please cite the original authors in your publications if it helps your research:
